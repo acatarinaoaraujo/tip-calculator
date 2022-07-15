@@ -9,8 +9,9 @@
 import UIKit
 
 class CalculatorViewController: UIViewController {
-
-    @IBOutlet weak var billTextField: UITextField!
+    
+    @IBOutlet weak var billTotalInput: UITextField!
+    
     @IBOutlet weak var zeroPctButton: UIButton!
     @IBOutlet weak var tenPctButton: UIButton!
     @IBOutlet weak var twentyPctButton: UIButton!
@@ -23,7 +24,7 @@ class CalculatorViewController: UIViewController {
     
     @IBAction func tipChanged(_ sender: UIButton) {
         
-        billTextField.endEditing(true)
+        billTotalInput.endEditing(true)
         
         zeroPctButton.isSelected = false
         tenPctButton.isSelected = false
@@ -44,7 +45,7 @@ class CalculatorViewController: UIViewController {
     
     @IBAction func calculatePressed(_ sender: UIButton) {
         
-        let bill = billTextField.text!
+        let bill = billTotalInput.text!
         if bill != "" {
             billTotal = Double(bill)!
             let result = billTotal * (1 + tip) / Double(numberOfPeople)
