@@ -42,9 +42,8 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="37F-W0-7q5" firstAttribute="top" secondItem="jg3-q9-5hT" secondAttribute="bottom" constant="26" id="AmX-jI-k5H"/>
-                                    <constraint firstAttribute="height" constant="109" id="DTS-gl-9z1"/>
+                                    <constraint firstAttribute="height" constant="109" id="dpk-76-LTA"/>
                                     <constraint firstItem="37F-W0-7q5" firstAttribute="top" secondItem="jg3-q9-5hT" secondAttribute="bottom" constant="26" id="gTK-0T-6QF"/>
-                                    <constraint firstAttribute="width" constant="200" id="u0R-Fy-xwt"/>
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gp9-5I-Qof">
@@ -203,21 +202,16 @@
                         <viewLayoutGuide key="safeArea" id="FbC-Ug-OLg"/>
                         <color key="backgroundColor" red="0.62188584940000002" green="0.62343407719999999" blue="0.77931064370000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="KF2-lb-2g9" firstAttribute="centerX" secondItem="KoM-sb-rZM" secondAttribute="centerX" id="1WS-U4-v91"/>
-                            <constraint firstItem="FbC-Ug-OLg" firstAttribute="trailing" secondItem="KoM-sb-rZM" secondAttribute="trailing" constant="107" id="2QH-yh-5pd"/>
+                            <constraint firstItem="KF2-lb-2g9" firstAttribute="top" secondItem="KoM-sb-rZM" secondAttribute="bottom" constant="52" id="5Bc-TP-fw1"/>
+                            <constraint firstItem="FbC-Ug-OLg" firstAttribute="trailing" secondItem="KoM-sb-rZM" secondAttribute="trailing" constant="107" id="9Xp-f8-3t3"/>
                             <constraint firstItem="yBs-81-bpw" firstAttribute="leading" secondItem="FbC-Ug-OLg" secondAttribute="leading" constant="99" id="A0q-cq-tFO"/>
-                            <constraint firstItem="KoM-sb-rZM" firstAttribute="top" secondItem="FbC-Ug-OLg" secondAttribute="top" constant="72" id="CGl-cX-FTt"/>
-                            <constraint firstItem="KoM-sb-rZM" firstAttribute="top" secondItem="FbC-Ug-OLg" secondAttribute="top" constant="72" id="MFo-Vx-E1j"/>
-                            <constraint firstItem="KoM-sb-rZM" firstAttribute="leading" secondItem="FbC-Ug-OLg" secondAttribute="leading" constant="107" id="MyG-6n-HxF"/>
-                            <constraint firstItem="KF2-lb-2g9" firstAttribute="top" secondItem="KoM-sb-rZM" secondAttribute="bottom" constant="52" id="SIH-vI-7wo"/>
+                            <constraint firstItem="KoM-sb-rZM" firstAttribute="top" secondItem="FbC-Ug-OLg" secondAttribute="top" constant="72" id="TUC-1P-qCY"/>
                             <constraint firstItem="KF2-lb-2g9" firstAttribute="leading" secondItem="FbC-Ug-OLg" secondAttribute="leading" id="V5a-cA-rsk"/>
-                            <constraint firstItem="yBs-81-bpw" firstAttribute="top" secondItem="KoM-sb-rZM" secondAttribute="bottom" constant="349" id="WEL-gD-F0S"/>
-                            <constraint firstItem="KoM-sb-rZM" firstAttribute="leading" secondItem="Gp9-5I-Qof" secondAttribute="leading" id="c18-Vp-Hqb"/>
-                            <constraint firstItem="KF2-lb-2g9" firstAttribute="top" secondItem="KoM-sb-rZM" secondAttribute="bottom" constant="52" id="euc-mp-XFU"/>
                             <constraint firstItem="FbC-Ug-OLg" firstAttribute="trailing" secondItem="yBs-81-bpw" secondAttribute="trailing" constant="99" id="fWl-9q-02v"/>
                             <constraint firstItem="KF2-lb-2g9" firstAttribute="trailing" secondItem="FbC-Ug-OLg" secondAttribute="trailing" id="k1B-uP-aKt"/>
                             <constraint firstItem="FbC-Ug-OLg" firstAttribute="trailing" secondItem="Gp9-5I-Qof" secondAttribute="trailing" constant="107" id="oix-Dy-y1s"/>
                             <constraint firstItem="Gp9-5I-Qof" firstAttribute="leading" secondItem="FbC-Ug-OLg" secondAttribute="leading" constant="107" id="pha-i7-GhX"/>
+                            <constraint firstItem="KoM-sb-rZM" firstAttribute="leading" secondItem="FbC-Ug-OLg" secondAttribute="leading" constant="107" id="qUb-gg-Gx3"/>
                             <constraint firstItem="KF2-lb-2g9" firstAttribute="leading" secondItem="FbC-Ug-OLg" secondAttribute="leading" id="sqg-Qr-M2g"/>
                             <constraint firstItem="Gp9-5I-Qof" firstAttribute="bottom" secondItem="FbC-Ug-OLg" secondAttribute="bottom" id="vMz-Io-ipU"/>
                             <constraint firstItem="Gp9-5I-Qof" firstAttribute="top" secondItem="yBs-81-bpw" secondAttribute="bottom" constant="144.5" id="zDQ-c8-0z1"/>
