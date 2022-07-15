@@ -13,6 +13,8 @@
 		F3C650A128811F2D00C243F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3C650A028811F2D00C243F0 /* Assets.xcassets */; };
 		F3C650A428811F2D00C243F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3C650A228811F2D00C243F0 /* LaunchScreen.storyboard */; };
 		F3C650B828811F8C00C243F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3C650B028811F8C00C243F0 /* Main.storyboard */; };
+		F3C650DF288122BC00C243F0 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C650D6288122BC00C243F0 /* ResultsViewController.swift */; };
+		F3C650E0288122BC00C243F0 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C650D7288122BC00C243F0 /* CalculatorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F3C650A328811F2D00C243F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3C650A528811F2D00C243F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3C650B128811F8C00C243F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3C650D6288122BC00C243F0 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		F3C650D7288122BC00C243F0 /* CalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +63,22 @@
 				F3C6509728811F2B00C243F0 /* AppDelegate.swift */,
 				F3C6509928811F2B00C243F0 /* SceneDelegate.swift */,
 				F3C6509B28811F2B00C243F0 /* ViewController.swift */,
+				F3C650D5288122BC00C243F0 /* Controllers */,
 				F3C650B028811F8C00C243F0 /* Main.storyboard */,
 				F3C650A028811F2D00C243F0 /* Assets.xcassets */,
 				F3C650A228811F2D00C243F0 /* LaunchScreen.storyboard */,
 				F3C650A528811F2D00C243F0 /* Info.plist */,
 			);
 			path = "Easy Tip";
+			sourceTree = "<group>";
+		};
+		F3C650D5288122BC00C243F0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F3C650D6288122BC00C243F0 /* ResultsViewController.swift */,
+				F3C650D7288122BC00C243F0 /* CalculatorViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +155,8 @@
 				F3C6509C28811F2B00C243F0 /* ViewController.swift in Sources */,
 				F3C6509828811F2B00C243F0 /* AppDelegate.swift in Sources */,
 				F3C6509A28811F2B00C243F0 /* SceneDelegate.swift in Sources */,
+				F3C650E0288122BC00C243F0 /* CalculatorViewController.swift in Sources */,
+				F3C650DF288122BC00C243F0 /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
