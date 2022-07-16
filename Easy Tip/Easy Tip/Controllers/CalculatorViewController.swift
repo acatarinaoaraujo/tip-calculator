@@ -26,7 +26,7 @@ class CalculatorViewController: UIViewController {
     @IBOutlet weak var splitNumberLabel: UILabel!*/
     
     var tip = 0.10
-    var numberOfPeople = 2
+    var numberOfPeople = 1
     var billTotal = 0.0
     var finalResult = "0.0"
     
@@ -46,6 +46,8 @@ class CalculatorViewController: UIViewController {
     }
     
     @IBAction func stepperChanged(_ sender: UIStepper) {
+        otherPctInput.endEditing(true)
+        
         numPplLabel.text = String(format: "%.0f", sender.value)
         numberOfPeople = Int(sender.value)
     }
@@ -55,8 +57,14 @@ class CalculatorViewController: UIViewController {
         let bill = billTotalInput.text!
         if bill != "" {
             billTotal = Double(bill)!
-            let result = billTotal * (1 + tip) / Double(numberOfPeople)
+            var result: Double
+            if otherPctInput.text == "" {
+                result = billTotal * (1 + tip) / Double(numberOfPeople)
+            } else {
+                result = billTotal * (1 + (Double(otherPctInput.text!)! / 100)) / Double(numberOfPeople)
+            }
             finalResult = String(format: "%.2f", result)
+            print(finalResult)
         }
         self.performSegue(withIdentifier: "goToResults", sender: self)
     }
