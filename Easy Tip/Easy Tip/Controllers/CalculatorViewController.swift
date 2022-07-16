@@ -25,7 +25,7 @@ class CalculatorViewController: UIViewController {
     @IBOutlet weak var twentyPctButton: UIButton!
     @IBOutlet weak var splitNumberLabel: UILabel!*/
     
-    var tip = 0.10
+    var tip = 0.15
     var numberOfPeople = 1
     var billTotal = 0.0
     var finalResult = "0.0"
