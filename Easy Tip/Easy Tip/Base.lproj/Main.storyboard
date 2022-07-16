@@ -51,7 +51,7 @@
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gp9-5I-Qof">
                                 <rect key="frame" x="107" y="743" width="200" height="48"/>
-                                <color key="backgroundColor" red="0.21205079135667151" green="0.4180601317504814" blue="0.19578382723333326" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.26050192692047441" green="0.49032240985619902" blue="0.32724602985473689" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="BpU-3J-PgW"/>
                                     <constraint firstAttribute="height" constant="48" id="Xh6-XA-aL9"/>
@@ -311,8 +311,8 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Bu-wo-2SR">
                                 <rect key="frame" x="107" y="808" width="200" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.69019607839999997" blue="0.41960784309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="backgroundColor" red="0.25929117200000001" green="0.4920447469" blue="0.32546532150000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="30"/>
                                 <state key="normal" title="Recalculate">
                                     <color key="titleColor" red="0.97254901959999995" green="1" blue="0.99215686270000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -413,7 +413,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
-                                                <color key="backgroundColor" red="0.36333227177684124" green="0.54888808125197286" blue="0.4575365370339402" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="backgroundColor" red="0.35441683397889817" green="0.54888808125197286" blue="0.3355660861086342" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </view>
                                         </subviews>
                                     </stackView>
