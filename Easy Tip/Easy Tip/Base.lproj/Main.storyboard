@@ -13,7 +13,7 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="CalculatorViewController" customModule="Easy_Tip" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="mlc-qa-UDb">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="mlc-qa-UDb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -47,7 +47,7 @@
                                     <constraint firstItem="37F-W0-7q5" firstAttribute="top" secondItem="jg3-q9-5hT" secondAttribute="bottom" constant="26" id="gTK-0T-6QF"/>
                                 </constraints>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gp9-5I-Qof">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gp9-5I-Qof">
                                 <rect key="frame" x="107" y="743" width="200" height="48"/>
                                 <color key="backgroundColor" red="0.21205079135667151" green="0.4180601317504814" blue="0.19578382723333326" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
@@ -65,7 +65,7 @@
                                     <action selector="calcButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="veE-VC-nHP"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KF2-lb-2g9">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KF2-lb-2g9">
                                 <rect key="frame" x="0.0" y="265" width="414" height="218"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="4Kz-KP-Wql">
@@ -131,17 +131,17 @@
                                                     </button>
                                                 </subviews>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="B0W-CK-S15">
-                                                <rect key="frame" x="24" y="121.5" width="285" height="40"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" translatesAutoresizingMaskIntoConstraints="NO" id="B0W-CK-S15">
+                                                <rect key="frame" x="35.5" y="121.5" width="262" height="40"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Or enter a number:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Is-py-kft">
-                                                        <rect key="frame" x="0.0" y="0.0" width="165" height="40"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Or enter a percentage:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Is-py-kft">
+                                                        <rect key="frame" x="0.0" y="0.0" width="197" height="40"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                         <color key="textColor" systemColor="systemGray5Color"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bru-ma-G4Y">
-                                                        <rect key="frame" x="225" y="0.0" width="60" height="40"/>
+                                                        <rect key="frame" x="202" y="0.0" width="60" height="40"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="Lhb-bp-pvg"/>
                                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="yOH-wQ-8vs"/>
@@ -151,7 +151,7 @@
                                                     </textField>
                                                 </subviews>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="285" id="Vrq-73-2S5"/>
+                                                    <constraint firstAttribute="width" constant="262" id="Vrq-73-2S5"/>
                                                     <constraint firstAttribute="height" constant="40" id="eFU-3Y-eLa"/>
                                                 </constraints>
                                             </stackView>
@@ -172,7 +172,7 @@
                                     <constraint firstAttribute="width" constant="414" id="j5Q-HV-2Ag"/>
                                 </constraints>
                             </view>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="yBs-81-bpw">
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="yBs-81-bpw">
                                 <rect key="frame" x="99" y="503" width="216" height="95.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number of People" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Cd-n5-CrV">
@@ -207,7 +207,7 @@
                                     <constraint firstAttribute="width" constant="230" id="wbZ-O7-rR0"/>
                                 </constraints>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dl8-2i-3Jm">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dl8-2i-3Jm">
                                 <rect key="frame" x="160" y="629" width="80" height="31"/>
                                 <color key="backgroundColor" red="0.85882352939999995" green="0.18039215689999999" blue="0.1137254902" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
