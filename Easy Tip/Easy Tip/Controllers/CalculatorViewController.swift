@@ -46,7 +46,7 @@ class CalculatorViewController: UIViewController {
     }
     
     @IBAction func stepperChanged(_ sender: UIStepper) {
-        otherPctInput.endEditing(true)
+        otherPctInput.isEnabled = false
         
         numPplLabel.text = String(format: "%.0f", sender.value)
         numberOfPeople = Int(sender.value)
