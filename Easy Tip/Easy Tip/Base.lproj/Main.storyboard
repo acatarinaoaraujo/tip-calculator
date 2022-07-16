@@ -47,7 +47,7 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gp9-5I-Qof">
-                                <rect key="frame" x="107" y="763" width="200" height="48"/>
+                                <rect key="frame" x="107" y="814" width="200" height="48"/>
                                 <color key="backgroundColor" red="0.21205079135667151" green="0.4180601317504814" blue="0.19578382723333326" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="BpU-3J-PgW"/>
@@ -62,7 +62,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KF2-lb-2g9">
-                                <rect key="frame" x="0.0" y="265" width="414" height="218"/>
+                                <rect key="frame" x="0.0" y="265" width="414" height="289"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="4Kz-KP-Wql">
                                         <rect key="frame" x="40.5" y="25" width="333" height="161.5"/>
@@ -160,7 +160,7 @@
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="yBs-81-bpw">
-                                <rect key="frame" x="99" y="523" width="216" height="95.5"/>
+                                <rect key="frame" x="99" y="574" width="216" height="95.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number of People" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Cd-n5-CrV">
                                         <rect key="frame" x="0.0" y="0.0" width="216" height="26.5"/>
@@ -214,6 +214,11 @@
                     </view>
                     <connections>
                         <outlet property="billTotalInput" destination="37F-W0-7q5" id="Own-xO-yHM"/>
+                        <outlet property="firstPctButton" destination="UeV-0h-F56" id="7P4-EW-LpQ"/>
+                        <outlet property="numPplLabel" destination="tsa-L4-EL3" id="ubw-Ml-jru"/>
+                        <outlet property="otherPctInput" destination="bru-ma-G4Y" id="RmB-9N-UUK"/>
+                        <outlet property="secPctButton" destination="97d-eg-B8h" id="IQV-qg-VmJ"/>
+                        <outlet property="thirdPctButton" destination="8ZR-aI-Q7h" id="GUH-tA-W5y"/>
                         <segue destination="Dnf-m2-FPm" kind="presentation" identifier="goToResults" modalPresentationStyle="fullScreen" id="CuC-72-OJg"/>
                     </connections>
                 </viewController>

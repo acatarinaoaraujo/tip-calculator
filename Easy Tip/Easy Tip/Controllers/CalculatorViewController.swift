@@ -12,10 +12,18 @@ class CalculatorViewController: UIViewController {
     
     @IBOutlet weak var billTotalInput: UITextField!
     
-    @IBOutlet weak var zeroPctButton: UIButton!
+    @IBOutlet weak var firstPctButton: UIButton!
+    @IBOutlet weak var secPctButton: UIButton!
+    @IBOutlet weak var thirdPctButton: UIButton!
+    
+    @IBOutlet weak var otherPctInput: UITextField!
+
+    @IBOutlet weak var numPplLabel: UILabel!
+    
+    /*@IBOutlet weak var zeroPctButton: UIButton!
     @IBOutlet weak var tenPctButton: UIButton!
     @IBOutlet weak var twentyPctButton: UIButton!
-    @IBOutlet weak var splitNumberLabel: UILabel!
+    @IBOutlet weak var splitNumberLabel: UILabel!*/
     
     var tip = 0.10
     var numberOfPeople = 2
@@ -26,9 +34,9 @@ class CalculatorViewController: UIViewController {
         
         billTotalInput.endEditing(true)
         
-        zeroPctButton.isSelected = false
-        tenPctButton.isSelected = false
-        twentyPctButton.isSelected = false
+        firstPctButton.isSelected = false
+        secPctButton.isSelected = false
+        thirdPctButton.isSelected = false
         sender.isSelected = true
         
         let buttonTitle = sender.currentTitle!
@@ -39,7 +47,7 @@ class CalculatorViewController: UIViewController {
     }
     
     @IBAction func stepperValueChanged(_ sender: UIStepper) {
-        splitNumberLabel.text = String(format: "%.0f", sender.value)
+        numPplLabel.text = String(format: "%.0f", sender.value)
         numberOfPeople = Int(sender.value)
     }
     
