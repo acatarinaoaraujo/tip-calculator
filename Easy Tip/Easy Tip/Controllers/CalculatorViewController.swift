@@ -53,6 +53,8 @@ class CalculatorViewController: UIViewController {
     }
     
     
+    
+    
     @IBAction func calcButtonPressed(_ sender: UIButton) {
         let bill = billTotalInput.text!
         if bill != "" {
@@ -67,6 +69,14 @@ class CalculatorViewController: UIViewController {
             print(finalResult)
         }
         self.performSegue(withIdentifier: "goToResults", sender: self)
+    }
+    
+    @IBAction func clearPressed(_ sender: UIButton) {
+        billTotalInput.text = nil
+        otherPctInput.text = nil
+        billTotalInput.isEnabled = true
+        firstPctButton.isSelected = false
+        thirdPctButton.isSelected = false
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
