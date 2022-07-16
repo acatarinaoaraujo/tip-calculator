@@ -291,7 +291,7 @@
                                         <color key="textColor" red="0.58431372550000005" green="0.60392156860000001" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Split between 2 people, with 10% tip." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZbQ-ca-OmW">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Number of 2 people, with 10% tip." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZbQ-ca-OmW">
                                         <rect key="frame" x="31" y="113" width="314" height="117"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
@@ -355,12 +355,12 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="top" spacing="80" translatesAutoresizingMaskIntoConstraints="NO" id="hDd-jF-m3x">
-                                        <rect key="frame" x="64" y="98" width="203" height="67"/>
+                                        <rect key="frame" x="64" y="71.5" width="203" height="67"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Jvn-CF-8l0">
                                                 <rect key="frame" x="0.0" y="0.0" width="87" height="67"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bill" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HuS-Pk-LJj">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HuS-Pk-LJj">
                                                         <rect key="frame" x="0.0" y="0.0" width="87" height="33.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                                         <color key="textColor" systemColor="systemGray5Color"/>
@@ -383,15 +383,15 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="top" spacing="80" translatesAutoresizingMaskIntoConstraints="NO" id="BJ6-ic-e5z">
-                                        <rect key="frame" x="0.0" y="196" width="331" height="104"/>
+                                        <rect key="frame" x="0.0" y="143" width="331" height="157"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lmF-Q4-KtX">
-                                                <rect key="frame" x="0.0" y="0.0" width="331" height="104"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="331" height="157"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="gZE-wS-eXF">
                                                         <rect key="frame" x="67" y="17" width="87" height="67"/>
                                                         <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bill" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gta-6q-GFx">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gta-6q-GFx">
                                                                 <rect key="frame" x="0.0" y="0.0" width="87" height="33.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                                                 <color key="textColor" systemColor="systemGray5Color"/>
@@ -410,6 +410,13 @@
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                                         <color key="textColor" systemColor="systemGray5Color"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Number of 2 people, with 10% tip." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mhr-Hf-mmO">
+                                                        <rect key="frame" x="82" y="79" width="166" height="70"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                        <color key="textColor" systemColor="systemGray3Color"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
