@@ -30,8 +30,8 @@ class CalculatorViewController: UIViewController {
     var billTotal = 0.0
     var finalResult = "0.0"
     
-    @IBAction func tipChanged(_ sender: UIButton) {
-        
+    
+    @IBAction func tipValChanged(_ sender: UIButton) {
         billTotalInput.endEditing(true)
         
         firstPctButton.isSelected = false
@@ -43,16 +43,15 @@ class CalculatorViewController: UIViewController {
         let buttonTitleMinusPercentSign =  String(buttonTitle.dropLast())
         let buttonTitleAsANumber = Double(buttonTitleMinusPercentSign)!
         tip = buttonTitleAsANumber / 100
-
     }
     
-    @IBAction func stepperValueChanged(_ sender: UIStepper) {
+    @IBAction func stepperChanged(_ sender: UIStepper) {
         numPplLabel.text = String(format: "%.0f", sender.value)
         numberOfPeople = Int(sender.value)
     }
     
-    @IBAction func calculatePressed(_ sender: UIButton) {
-        
+    
+    @IBAction func calcButtonPressed(_ sender: UIButton) {
         let bill = billTotalInput.text!
         if bill != "" {
             billTotal = Double(bill)!

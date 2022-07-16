@@ -12,7 +12,7 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="CalculatorViewController" customModule="Easy_Tip" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="mlc-qa-UDb">
+                    <view key="view" contentMode="scaleToFill" id="mlc-qa-UDb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -46,8 +46,8 @@
                                     <constraint firstItem="37F-W0-7q5" firstAttribute="top" secondItem="jg3-q9-5hT" secondAttribute="bottom" constant="26" id="gTK-0T-6QF"/>
                                 </constraints>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gp9-5I-Qof">
-                                <rect key="frame" x="107" y="814" width="200" height="48"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gp9-5I-Qof">
+                                <rect key="frame" x="107" y="743" width="200" height="48"/>
                                 <color key="backgroundColor" red="0.21205079135667151" green="0.4180601317504814" blue="0.19578382723333326" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="BpU-3J-PgW"/>
@@ -60,9 +60,12 @@
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10f"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="calcButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="veE-VC-nHP"/>
+                                </connections>
                             </button>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KF2-lb-2g9">
-                                <rect key="frame" x="0.0" y="265" width="414" height="289"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KF2-lb-2g9">
+                                <rect key="frame" x="0.0" y="265" width="414" height="218"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="4Kz-KP-Wql">
                                         <rect key="frame" x="40.5" y="25" width="333" height="161.5"/>
@@ -91,6 +94,9 @@
                                                         <state key="normal" title="10%">
                                                             <color key="titleColor" systemColor="systemGray4Color"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="tipValChanged:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CWd-fK-rCq"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="97d-eg-B8h">
                                                         <rect key="frame" x="138" y="0.0" width="55" height="48"/>
@@ -103,6 +109,9 @@
                                                         <state key="normal" title="15%">
                                                             <color key="titleColor" systemColor="systemGray5Color"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="tipValChanged:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1kP-5w-h4D"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ZR-aI-Q7h">
                                                         <rect key="frame" x="273" y="0.0" width="60" height="48"/>
@@ -115,6 +124,9 @@
                                                         <state key="normal" title="20%">
                                                             <color key="titleColor" systemColor="systemGray4Color"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="tipValChanged:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5og-Zd-fBH"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -159,8 +171,8 @@
                                     <constraint firstAttribute="width" constant="414" id="j5Q-HV-2Ag"/>
                                 </constraints>
                             </view>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="yBs-81-bpw">
-                                <rect key="frame" x="99" y="574" width="216" height="95.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="yBs-81-bpw">
+                                <rect key="frame" x="99" y="503" width="216" height="95.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number of People" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Cd-n5-CrV">
                                         <rect key="frame" x="0.0" y="0.0" width="216" height="26.5"/>
@@ -181,6 +193,9 @@
                                                 <rect key="frame" x="122" y="8.5" width="94" height="32"/>
                                                 <color key="backgroundColor" red="0.31372549020000001" green="0.30980392159999998" blue="0.69019607839999997" alpha="1" colorSpace="calibratedRGB"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <connections>
+                                                    <action selector="stepperChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="TrI-Hk-9q5"/>
+                                                </connections>
                                             </stepper>
                                         </subviews>
                                         <color key="backgroundColor" red="0.71036852620000002" green="0.71478160130000001" blue="0.89558878149999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
