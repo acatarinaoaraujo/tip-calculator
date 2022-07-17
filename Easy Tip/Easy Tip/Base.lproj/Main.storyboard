@@ -50,7 +50,7 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gp9-5I-Qof">
-                                <rect key="frame" x="107" y="814" width="200" height="48"/>
+                                <rect key="frame" x="107" y="743" width="200" height="48"/>
                                 <color key="backgroundColor" red="0.26050192692047441" green="0.49032240985619902" blue="0.32724602985473689" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="BpU-3J-PgW"/>
@@ -68,7 +68,7 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KF2-lb-2g9">
-                                <rect key="frame" x="0.0" y="265" width="414" height="289"/>
+                                <rect key="frame" x="0.0" y="265" width="414" height="218"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="4Kz-KP-Wql">
                                         <rect key="frame" x="40.5" y="25" width="333" height="161.5"/>
@@ -175,7 +175,7 @@
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="yBs-81-bpw">
-                                <rect key="frame" x="99" y="574" width="216" height="95.5"/>
+                                <rect key="frame" x="99" y="503" width="216" height="95.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number of People" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Cd-n5-CrV">
                                         <rect key="frame" x="0.0" y="0.0" width="216" height="27.5"/>
@@ -214,7 +214,7 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dl8-2i-3Jm">
-                                <rect key="frame" x="160" y="700" width="80" height="31"/>
+                                <rect key="frame" x="160" y="629" width="80" height="31"/>
                                 <color key="backgroundColor" red="0.85882352939999995" green="0.18039215689999999" blue="0.1137254902" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="31" id="OSN-ei-4Lh"/>
@@ -280,7 +280,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Bu-wo-2SR">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Bu-wo-2SR">
                                 <rect key="frame" x="107" y="808" width="200" height="48"/>
                                 <color key="backgroundColor" red="0.25929117200000001" green="0.4920447469" blue="0.32546532150000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="30"/>
@@ -290,6 +290,9 @@
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10f"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="recalculatePressed:" destination="Dnf-m2-FPm" eventType="touchUpInside" id="i2A-vb-OCp"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="8QH-3O-Lg2">
                                 <rect key="frame" x="41" y="298" width="332" height="300"/>
@@ -383,7 +386,7 @@
                                                             <constraint firstAttribute="height" constant="67" id="Vdq-Wr-fT8"/>
                                                         </constraints>
                                                     </stackView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number of 2 people, with10% tip." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mhr-Hf-mmO">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number of 2 people, with 10% tip." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mhr-Hf-mmO">
                                                         <rect key="frame" x="54" y="106" width="203" height="43"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                         <color key="textColor" systemColor="systemGray3Color"/>
@@ -437,13 +440,21 @@
                         <viewLayoutGuide key="safeArea" id="wBY-cB-DI1"/>
                         <color key="backgroundColor" red="0.66390281920000005" green="0.66382247210000001" blue="0.83139222859999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
+                            <constraint firstItem="8Bu-wo-2SR" firstAttribute="centerX" secondItem="8QH-3O-Lg2" secondAttribute="centerX" id="4E0-FN-06w"/>
                             <constraint firstItem="8QH-3O-Lg2" firstAttribute="leading" secondItem="wBY-cB-DI1" secondAttribute="leading" constant="41" id="AZp-xr-WdP"/>
                             <constraint firstItem="wBY-cB-DI1" firstAttribute="trailing" secondItem="8QH-3O-Lg2" secondAttribute="trailing" constant="41" id="Gyg-TJ-d30"/>
                             <constraint firstItem="8QH-3O-Lg2" firstAttribute="top" secondItem="wBY-cB-DI1" secondAttribute="top" constant="254" id="kId-eG-ISX"/>
-                            <constraint firstItem="8Bu-wo-2SR" firstAttribute="top" secondItem="8QH-3O-Lg2" secondAttribute="bottom" constant="210" id="piR-a7-GJD"/>
                             <constraint firstItem="8QH-3O-Lg2" firstAttribute="leading" secondItem="wBY-cB-DI1" secondAttribute="leading" constant="41" id="tut-6A-Gik"/>
+                            <constraint firstItem="wBY-cB-DI1" firstAttribute="bottom" secondItem="8Bu-wo-2SR" secondAttribute="bottom" constant="6" id="x3o-9W-gyh"/>
+                            <constraint firstItem="8Bu-wo-2SR" firstAttribute="leading" secondItem="wBY-cB-DI1" secondAttribute="leading" constant="107" id="z5E-th-bBx"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="billPersonLabel" destination="ff0-lw-lwk" id="vAG-Qo-mNP"/>
+                        <outlet property="extraInfroLabel" destination="mhr-Hf-mmO" id="tXs-mD-M1h"/>
+                        <outlet property="tipPersonLabel" destination="rTx-vs-pky" id="Q6g-gE-hT1"/>
+                        <outlet property="totalPersonLabel" destination="ic3-v8-kF9" id="oGl-OY-Tnf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uLi-Eb-NGd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

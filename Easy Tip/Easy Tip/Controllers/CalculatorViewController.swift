@@ -1,9 +1,9 @@
 //
 //  ViewController.swift
-//  Tipsy
+//  Easy Tip
 //
-//  Created by Angela Yu on 09/09/2019.
-//  Copyright © 2019 The App Brewery. All rights reserved.
+//  Created by Ana Araujo on 16/07/2022.
+//  Copyright © 2022 Ana Araujo. All rights reserved.
 //
 
 import UIKit
@@ -15,15 +15,10 @@ class CalculatorViewController: UIViewController {
     @IBOutlet weak var firstPctButton: UIButton!
     @IBOutlet weak var secPctButton: UIButton!
     @IBOutlet weak var thirdPctButton: UIButton!
-    
     @IBOutlet weak var otherPctInput: UITextField!
 
     @IBOutlet weak var numPplLabel: UILabel!
     
-    /*@IBOutlet weak var zeroPctButton: UIButton!
-    @IBOutlet weak var tenPctButton: UIButton!
-    @IBOutlet weak var twentyPctButton: UIButton!
-    @IBOutlet weak var splitNumberLabel: UILabel!*/
     
     var tip = 0.15
     var numberOfPeople = 1
