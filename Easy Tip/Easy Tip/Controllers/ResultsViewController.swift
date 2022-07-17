@@ -18,15 +18,19 @@ class ResultsViewController: UIViewController {
     @IBOutlet weak var totalPersonLabel: UILabel!
     @IBOutlet weak var extraInfroLabel: UILabel!
     
-    var result = "0.0"
-    var tip = 10
     var split = 1
+    var billEach = "0.0"
+    var tipEach = "0.0"
+    var tipPct = 10
+    var result = "0.0"
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        billPersonLabel.text = billEach
+        tipPersonLabel.text = tipEach
         totalPersonLabel.text = result
-        extraInfroLabel.text = "Number of \(split) people, with \(tip)% tip."
+        extraInfroLabel.text = "Number of \(split) people, with \(tipPct)% tip."
 
     }
     

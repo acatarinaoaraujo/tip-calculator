@@ -41,8 +41,7 @@ class CalculatorViewController: UIViewController {
     }
     
     @IBAction func stepperChanged(_ sender: UIStepper) {
-        otherPctInput.isEnabled = false
-        
+
         numPplLabel.text = String(format: "%.0f", sender.value)
         numberOfPeople = Int(sender.value)
     }
@@ -54,6 +53,7 @@ class CalculatorViewController: UIViewController {
         let bill = billTotalInput.text!
         if bill != "" {
             billTotal = Double(bill)!
+            print(billTotal)
             var result: Double
             if otherPctInput.text == "" {
                 result = billTotal * (1 + tip) / Double(numberOfPeople)
@@ -80,8 +80,16 @@ class CalculatorViewController: UIViewController {
             
             let destinationVC = segue.destination as! ResultsViewController
             destinationVC.result = finalResult
-            destinationVC.tip = Int(tip * 100)
+            destinationVC.billEach = String(format: "%.2f", billTotal / Double(numberOfPeople))
+            if (otherPctInput.text != "") {
+                destinationVC.tipEach = String(format: "%.2f", (billTotal * (1 + Double(otherPctInput.text!)! / 100) - billTotal) /  Double(numberOfPeople))
+                destinationVC.tipPct = Int(otherPctInput.text!)!
+            } else {
+                destinationVC.tipEach = String(format: "%.2f", (billTotal * (1 + tip) - billTotal) /  Double(numberOfPeople))
+                destinationVC.tipPct = Int(tip * 100)
+            }
             destinationVC.split = numberOfPeople
+            
         }
     }
 }
