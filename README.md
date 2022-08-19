@@ -3,11 +3,13 @@ This application is a basic calculator for iOS devices. This app was mainly crea
 <p><b>Tools:</b> Xcode</p>
 <p><b>Languages:</b> Swift</p>
 
-#### Portrait
 ![](images/tip-calculator.gif)
 
-#### Landscape
-<img src="images/landscape-calculator.png" width="400" height="200" />
+#### Screenshots
+<img src="images/bill-info.png" width="200" height="400" />
+
+<img src="images/result.png" width="200" height="400" />
+
 
 ### How to use
 :small_orange_diamond: Download source code
