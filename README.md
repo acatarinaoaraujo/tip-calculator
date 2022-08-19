@@ -1,5 +1,6 @@
-## iOS Tip Calculator App <img src="https://developer.apple.com/swift/images/swift-og.png" width="40">
-This application is a basic calculator for iOS devices. This app was mainly created to get experience auto layering, handling buttons, and the logic behind basic calculations. 
+## iOS Tip Calculator App <img src="https://developer.apple.com/swift/images/swift-og.png" width="40"> :iphone:
+This application is a tip calculator for iOS devices. It allows a user to calculate the tip with the desired tip percentage and number of people which the bill will be split. This app was created to get experience auto layering, and using UIButton, UIStoryboardSegue, UIStepper, and UITapGestureRecognizer.
+
 <p><b>Tools:</b> Xcode</p>
 <p><b>Languages:</b> Swift</p>
 
@@ -12,9 +13,9 @@ This application is a basic calculator for iOS devices. This app was mainly crea
 
 
 ### How to use
-:small_orange_diamond: Download source code
-:small_orange_diamond: Unzip the downloaded folder
-:small_orange_diamond: Open project in Xcode and play
+1. Download source code
+2. Unzip the downloaded folder
+3. Open project in Xcode and play
 
 **Using Terminal:**
 ```
