@@ -25,7 +25,6 @@ class CalculatorViewController: UIViewController {
     var billTotal = 0.0
     var finalResult = "0.0"
     
-    
     @IBAction func tipValChanged(_ sender: UIButton) {
         billTotalInput.endEditing(true)
         
@@ -46,14 +45,10 @@ class CalculatorViewController: UIViewController {
         numberOfPeople = Int(sender.value)
     }
     
-    
-    
-    
     @IBAction func calcButtonPressed(_ sender: UIButton) {
         let bill = billTotalInput.text!
         if bill != "" {
             billTotal = Double(bill)!
-            print(billTotal)
             var result: Double
             if otherPctInput.text == "" {
                 result = billTotal * (1 + tip) / Double(numberOfPeople)
@@ -61,7 +56,6 @@ class CalculatorViewController: UIViewController {
                 result = billTotal * (1 + (Double(otherPctInput.text!)! / 100)) / Double(numberOfPeople)
             }
             finalResult = String(format: "%.2f", result)
-            print(finalResult)
         }
         self.performSegue(withIdentifier: "goToResults", sender: self)
     }
