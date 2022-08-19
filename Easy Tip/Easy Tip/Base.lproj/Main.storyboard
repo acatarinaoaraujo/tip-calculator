@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="dark"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Image references" minToolsVersion="12.0"/>
@@ -38,7 +38,7 @@
                                             <constraint firstAttribute="width" constant="200" id="BOZ-J0-KQk"/>
                                             <constraint firstAttribute="height" constant="49.5" id="lN5-lR-gmN"/>
                                         </constraints>
-                                        <color key="textColor" systemColor="systemGray6Color"/>
+                                        <color key="textColor" red="0.93732582009999998" green="0.93612462340000002" blue="0.9571065379" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                         <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                     </textField>
@@ -58,7 +58,7 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="30"/>
                                 <state key="normal" title="Calculate">
-                                    <color key="titleColor" systemColor="systemGray6Color"/>
+                                    <color key="titleColor" red="0.93732582009999998" green="0.93612462340000002" blue="0.9571065379" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10f"/>
@@ -80,7 +80,7 @@
                                                     <constraint firstAttribute="width" constant="65.5" id="mwV-Gs-mvr"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" weight="light" pointSize="28"/>
-                                                <color key="textColor" systemColor="systemGray5Color"/>
+                                                <color key="textColor" red="0.93732582008647558" green="0.9361246233770969" blue="0.95710653789115674" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="wvg-zi-uHH">
@@ -93,9 +93,9 @@
                                                             <constraint firstAttribute="height" constant="48" id="Iqf-aP-YE9"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="30"/>
-                                                        <color key="tintColor" systemColor="systemGray4Color"/>
+                                                        <color key="tintColor" red="0.93732582009999998" green="0.93612462340000002" blue="0.9571065379" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <state key="normal" title="10%">
-                                                            <color key="titleColor" systemColor="systemGray4Color"/>
+                                                            <color key="titleColor" red="0.93732582009999998" green="0.93612462340000002" blue="0.9571065379" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
                                                         <connections>
                                                             <action selector="tipValChanged:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CWd-fK-rCq"/>
@@ -108,9 +108,9 @@
                                                             <constraint firstAttribute="height" constant="48" id="Zqy-Ec-yD8"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="30"/>
-                                                        <color key="tintColor" systemColor="systemGray4Color"/>
+                                                        <color key="tintColor" red="0.93732582009999998" green="0.93612462340000002" blue="0.9571065379" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <state key="normal" title="15%">
-                                                            <color key="titleColor" systemColor="systemGray5Color"/>
+                                                            <color key="titleColor" red="0.93732582009999998" green="0.93612462340000002" blue="0.9571065379" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
                                                         <connections>
                                                             <action selector="tipValChanged:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1kP-5w-h4D"/>
@@ -123,9 +123,9 @@
                                                             <constraint firstAttribute="height" constant="48" id="jS8-Iz-mCg"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="30"/>
-                                                        <color key="tintColor" systemColor="systemGray4Color"/>
+                                                        <color key="tintColor" red="0.93732582009999998" green="0.93612462340000002" blue="0.9571065379" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <state key="normal" title="20%">
-                                                            <color key="titleColor" systemColor="systemGray4Color"/>
+                                                            <color key="titleColor" red="0.93732582009999998" green="0.93612462340000002" blue="0.9571065379" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         </state>
                                                         <connections>
                                                             <action selector="tipValChanged:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5og-Zd-fBH"/>
@@ -139,16 +139,18 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Or enter a percentage:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Is-py-kft">
                                                         <rect key="frame" x="0.0" y="0.0" width="197" height="40"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                        <color key="textColor" systemColor="systemGray5Color"/>
+                                                        <color key="textColor" red="0.93732582009999998" green="0.93612462340000002" blue="0.9571065379" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bru-ma-G4Y">
                                                         <rect key="frame" x="202" y="0.0" width="60" height="40"/>
+                                                        <color key="backgroundColor" red="0.93732582009999998" green="0.93612462340000002" blue="0.9571065379" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="Lhb-bp-pvg"/>
                                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="yOH-wQ-8vs"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                 </subviews>
@@ -191,7 +193,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tsa-L4-EL3">
                                                 <rect key="frame" x="0.0" y="2.5" width="16" height="43"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                                <color key="textColor" systemColor="systemGray6Color"/>
+                                                <color key="textColor" red="0.93732582009999998" green="0.93612462340000002" blue="0.9571065379" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <size key="shadowOffset" width="0.0" height="1"/>
@@ -199,7 +201,7 @@
                                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minimumValue="1" maximumValue="25" translatesAutoresizingMaskIntoConstraints="NO" id="ntv-5u-oey">
                                                 <rect key="frame" x="122" y="8" width="94" height="32"/>
                                                 <color key="backgroundColor" red="0.31372549020000001" green="0.30980392159999998" blue="0.69019607839999997" alpha="1" colorSpace="calibratedRGB"/>
-                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="tintColor" red="0.93732582009999998" green="0.93612462340000002" blue="0.9571065379" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <connections>
                                                     <action selector="stepperChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="TrI-Hk-9q5"/>
                                                 </connections>
@@ -224,7 +226,7 @@
                                 <buttonConfiguration key="configuration" style="plain" imagePlacement="trailing" title="Clear  ">
                                     <imageReference key="image" image="clear" catalog="system" symbolScale="small"/>
                                     <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="12"/>
-                                    <color key="baseForegroundColor" systemColor="systemGray6Color"/>
+                                    <color key="baseForegroundColor" red="0.93732582009999998" green="0.93612462340000002" blue="0.9571065379" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10f"/>
@@ -306,13 +308,13 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bill" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HpX-mL-3Gi">
                                                         <rect key="frame" x="0.0" y="0.0" width="87" height="33.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                                        <color key="textColor" systemColor="systemGray5Color"/>
+                                                        <color key="textColor" red="0.93732582009999998" green="0.93612462340000002" blue="0.9571065379" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="per person" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0TH-hc-5Zj">
                                                         <rect key="frame" x="0.0" y="33.5" width="87" height="33.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                        <color key="textColor" systemColor="systemGray3Color"/>
+                                                        <color key="textColor" red="0.71363064849185565" green="0.71871893192007041" blue="0.73398378220471461" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -320,7 +322,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BOLA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ff0-lw-lwk">
                                                 <rect key="frame" x="167" y="0.0" width="71.5" height="33.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                                <color key="textColor" systemColor="systemGray5Color"/>
+                                                <color key="textColor" red="0.93732582009999998" green="0.93612462340000002" blue="0.9571065379" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -338,13 +340,13 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HuS-Pk-LJj">
                                                         <rect key="frame" x="0.0" y="0.0" width="87" height="33.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                                        <color key="textColor" systemColor="systemGray5Color"/>
+                                                        <color key="textColor" red="0.93732582009999998" green="0.93612462340000002" blue="0.9571065379" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="per person" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bel-qI-63V">
                                                         <rect key="frame" x="0.0" y="33.5" width="87" height="33.5"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                        <color key="textColor" systemColor="systemGray3Color"/>
+                                                        <color key="textColor" red="0.71363064850000002" green="0.71871893190000002" blue="0.73398378220000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -352,7 +354,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BOLA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rTx-vs-pky">
                                                 <rect key="frame" x="167" y="0.0" width="71.5" height="33.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                                <color key="textColor" systemColor="systemGray5Color"/>
+                                                <color key="textColor" red="0.93732582009999998" green="0.93612462340000002" blue="0.9571065379" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -372,7 +374,7 @@
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gta-6q-GFx">
                                                                 <rect key="frame" x="0.0" y="0.0" width="100" height="33.5"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                                                <color key="textColor" systemColor="systemGray5Color"/>
+                                                                <color key="textColor" red="0.93732582009999998" green="0.93612462340000002" blue="0.9571065379" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="per person" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jfP-9F-UaV">
@@ -381,7 +383,7 @@
                                                                     <constraint firstAttribute="height" constant="33.5" id="NFg-LM-El2"/>
                                                                 </constraints>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                                <color key="textColor" systemColor="systemGray3Color"/>
+                                                                <color key="textColor" red="0.71363064850000002" green="0.71871893190000002" blue="0.73398378220000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
@@ -393,13 +395,13 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Number of 2 people, with 10% tip." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mhr-Hf-mmO">
                                                         <rect key="frame" x="54" y="106" width="203" height="43"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                                        <color key="textColor" systemColor="systemGray3Color"/>
+                                                        <color key="textColor" red="0.93732582009999998" green="0.93612462340000002" blue="0.9571065379" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="BOLA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ic3-v8-kF9">
                                                         <rect key="frame" x="229.5" y="17" width="71.5" height="34"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                                        <color key="textColor" systemColor="systemGray5Color"/>
+                                                        <color key="textColor" red="0.93732582009999998" green="0.93612462340000002" blue="0.9571065379" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -460,18 +462,6 @@
     </scenes>
     <resources>
         <image name="clear" catalog="system" width="128" height="114"/>
-        <systemColor name="systemGray3Color">
-            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemGray4Color">
-            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemGray5Color">
-            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemGray6Color">
-            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemIndigoColor">
             <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
