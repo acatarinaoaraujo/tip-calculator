@@ -1,4 +1,4 @@
-## iOS Tip Calculator App <img src="https://developer.apple.com/swift/images/swift-og.png" width="40"> :iphone:
+## iOS Tip Calculator App :iphone: <img src="https://developer.apple.com/swift/images/swift-og.png" width="40"> 
 This application is a tip calculator for iOS devices. It allows a user to calculate the tip with the desired tip percentage and number of people which the bill will be split. This app was created to get experience auto layering, and using UIButton, UIStoryboardSegue, UIStepper, and UITapGestureRecognizer.
 
 <p><b>Tools:</b> Xcode</p>
