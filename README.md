@@ -13,13 +13,13 @@ This application is a tip calculator for iOS devices. It allows a user to calcul
 
 
 ### How to use
-1. Download source code
-2. Unzip the downloaded folder
-3. Open project in Xcode and play
+1. Download source code :inbox_tray:
+2. Unzip the downloaded folder :open_file_folder:
+3. Open project in Xcode and play :calling:
 
 **Using Terminal:**
 ```
   git clone https://github.com/acatarinaoaraujo/tip-calculator.git
   ```
  ### Contact
- <em> In case you want to contribute to this app, send me an email at acoa_@hotmail.com.</em> :bulb:
+ <em> In case you want to contribute to this app, send me an email at acoa_@hotmail.com.</em> :postbox: :bulb:
