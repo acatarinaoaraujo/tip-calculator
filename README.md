@@ -1,16 +1,16 @@
-## iOS Tip Calculator App :iphone: <img src="https://developer.apple.com/swift/images/swift-og.png" width="40"> 
-This application is a tip calculator for iOS devices. It allows a user to calculate the tip with the desired tip percentage and number of people which the bill will be split. This app was created to get experience auto layering, and using UIButton, UIStoryboardSegue, UIStepper, and UITapGestureRecognizer.
+
+
+<p align="center">
+## iOS Tip Calculator App :iphone:
+<img src="https://github.com/devicons/devicon/blob/master/icons/swift/swift-original.svg" title="Swift" alt="Swift" width="52" height="52"/>
+</p>
+
+This iOS application serves as a tip calculator, allowing users to effortlessly determine the tip amount based on their preferred tip percentage and the number of people sharing the bill. The development of this app was undertaken to gain knowledge in various key iOS development concepts and components, including Auto Layout, UIButton, UIStoryboardSegue, UIStepper, and UITapGestureRecognizer.
 
 <p><b>Tools:</b> Xcode</p>
 <p><b>Languages:</b> Swift</p>
 
-![](images/tip-calculator.gif)
-
-#### Screenshots
-<img src="images/bill-info.png" width="200" height="400" />
-
-<img src="images/result.png" width="200" height="400" />
-
+![](images/video.gif)
 
 ### How to use
 1. Download source code :inbox_tray:
