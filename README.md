@@ -1,5 +1,5 @@
 
-<h1 align="center">iOS Tip Calculator App</h1>  :iphone:
+<h1 align="center">iOS Tip Calculator App :iphone:</h1>
 <p align="center">
 <img src="https://github.com/devicons/devicon/blob/master/icons/swift/swift-original.svg" title="Swift" alt="Swift" width="52" height="52"/>
 </p>
