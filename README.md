@@ -10,7 +10,7 @@ This iOS application serves as a tip calculator, allowing users to effortlessly 
 <p><b>Tools:</b> Xcode</p>
 <p><b>Languages:</b> Swift</p>
 
-<img src="images/video.gif" width="300" height="200">
+<img src="images/video.gif" width="200" height="400">
 
 
 ### How to use
