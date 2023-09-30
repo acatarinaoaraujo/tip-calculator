@@ -10,7 +10,8 @@ This iOS application serves as a tip calculator, allowing users to effortlessly 
 <p><b>Tools:</b> Xcode</p>
 <p><b>Languages:</b> Swift</p>
 
-![](images/video.gif)
+<img src="images/video.gif" width="300" height="200">
+
 
 ### How to use
 1. Download source code :inbox_tray:
