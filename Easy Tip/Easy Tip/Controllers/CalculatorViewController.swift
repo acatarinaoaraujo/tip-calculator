@@ -18,6 +18,7 @@ class CalculatorViewController: UIViewController {
     @IBOutlet weak var otherPctInput: UITextField!
 
     @IBOutlet weak var numPplLabel: UILabel!
+    @IBOutlet weak var stepper: UIStepper!
     
     
     var tip = 0.15
@@ -40,9 +41,8 @@ class CalculatorViewController: UIViewController {
     }
     
     @IBAction func stepperChanged(_ sender: UIStepper) {
-
-        numPplLabel.text = String(format: "%.0f", sender.value)
         numberOfPeople = Int(sender.value)
+        numPplLabel.text = "\(numberOfPeople)"
     }
     
     @IBAction func calcButtonPressed(_ sender: UIButton) {
@@ -66,6 +66,9 @@ class CalculatorViewController: UIViewController {
         billTotalInput.isEnabled = true
         firstPctButton.isSelected = false
         thirdPctButton.isSelected = false
+        numPplLabel.text = "1"
+        stepper.value = 1
+
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

@@ -21,6 +21,8 @@ class ResultsViewController: UIViewController {
     var tipPct = 10
     var result = "0.0"
     
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.hideKeyboardWhenTappedAround()
